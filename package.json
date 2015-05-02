@@ -27,8 +27,11 @@
 		"plugin"
 	],
 	"main": "index.js",
+	"peerDependencies": {
+		"catberry": "^5.0.0"
+	},
 	"dependencies": {
-		"csstime-gulp-tasks": "^4.0.1",
+		"csstime-gulp-tasks": "^4.0.2",
 		"pretty-hrtime": "^1.0.0",
 		"gulp": "^3.8.11"
 	},

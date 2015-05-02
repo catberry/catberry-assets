@@ -1,0 +1,54 @@
+{
+	"name": "catberry-assets",
+	"version": "1.0.0",
+	"author": {
+		"name": "Denis Rechkunov",
+		"email": "denis.rechkunov@gmail.com"
+	},
+	"description": "Plugin for Catberry Framework that builds assets for every cat-component using Gulp.",
+
+	"homepage": "https://github.com/catberry/catberry-assets",
+	"bugs": {
+		"url": "https://github.com/catberry/catberry-assets/issues",
+		"email": "denis.rechkunov@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/catberry/catberry-assets.git"
+	},
+	"contributors": [],
+	"keywords": [
+		"catberry",
+		"assets",
+		"gulp",
+		"component",
+		"css",
+		"less",
+		"plugin"
+	],
+	"main": "index.js",
+	"peerDependencies": {
+		"catberry": "^5.0.0"
+	},
+	"dependencies": {
+		"csstime-gulp-tasks": "^4.0.2",
+		"pretty-hrtime": "^1.0.0",
+		"gulp": "^3.8.11"
+	},
+	"devDependencies": {
+		"jscs": "~1.6.2",
+		"jshint": "^2.6.0"
+	},
+	"engines": {
+		"node": ">=0.10"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/catberry/catberry/blob/master/LICENSE"
+		}
+	]
+}

@@ -9,7 +9,7 @@ If you want component to have any assets like CSS/LESS and images you just need
 to add the plugin to your project and put all this stuff to a directory `assets`
 of your component, this plugin will do everything for you.
 
-Also you can have global assets directory called `static` at the root 
+Also, you can have a global assets directory called `static` at the root 
 of your project. 
 
 For example, your project tree can look like this:
@@ -79,7 +79,7 @@ cat.build();
 
 The plugin uses [csstime](https://github.com/csstime/csstime-gulp-tasks) package under the hood, you can pass parameters
 to the csstime using section `assets` in the `config` object.
-For learning all possible parameters you can see the [documentation](https://github.com/csstime/csstime-gulp-tasks/blob/master/doc/configs.md). 
+For learning all possible parameters, you can see the [documentation](https://github.com/csstime/csstime-gulp-tasks/blob/master/doc/configs.md). 
 
 ## Contribution
 If you have found a bug, please create pull request with [mocha](https://www.npmjs.org/package/mocha) 

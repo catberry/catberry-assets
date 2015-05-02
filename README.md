@@ -19,17 +19,19 @@ For example, your project tree can look like this:
 catberry_components/
 	component1/
 		assets/
-			c1-1.jpg
-			c1-2.png
-			c1-3.svg
-			styles.less
+			images/
+				c1-1.jpg
+				c1-2.png
+			svg/
+				c1-3.svg
 		...
 	component2/
 		assets/
-			c2-1.jpg
-			c2-2.png
-			c3-3.svg
-			styles.less
+			images/
+				c2-1.jpg
+				c2-2.png
+			svg/
+				c2-3.svg
 		...
 static/
 	static1.jpg
@@ -44,14 +46,20 @@ Your assets will be put to a [public directory](https://github.com/catberry/catb
 public/
 	assets/
 		component1/
-			c1-1.jpg
-			c1-2.png
-			c1-3.svg
+			images/
+				c1-1.jpg
+				c1-2.png
+			svg/
+				c1-3.svg
+				c1-3.png
 			...
 		component2/
-			c2-1.jpg
-			c2-2.png
-			c3-3.svg
+			images/
+				c2-1.jpg
+				c2-2.png
+			svg/
+				c2-3.svg
+				c2-3.png
 		...
 static1.jpg
 static2.png

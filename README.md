@@ -5,9 +5,10 @@
 ![Catberry](https://raw.githubusercontent.com/catberry/catberry/master/docs/images/logo.png)
 
 This is a plugin for working with Catberry component's assets.
-If you want component to have any assets like CSS/LESS and images you just need
-to add the plugin to your project and put all this stuff to a directory `assets`
-of your component, this plugin will do everything for you.
+If you want cat-component to have any assets like CSS/LESS and images 
+you just need to add the plugin to your project and put all this stuff 
+to a directory `assets` of your cat-component, this plugin 
+will do everything for you.
 
 Also, you can have a global assets directory called `static` at the root 
 of your project. 

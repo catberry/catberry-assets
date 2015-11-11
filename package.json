@@ -1,6 +1,6 @@
 {
 	"name": "catberry-assets",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"author": {
 		"name": "Denis Rechkunov",
 		"email": "denis.rechkunov@gmail.com"
@@ -28,27 +28,22 @@
 	],
 	"main": "index.js",
 	"peerDependencies": {
-		"catberry": "^5.0.0 || ^6.0.0"
+		"catberry": "^5.0.0 || ^6.0.0 || ^7.0.0"
 	},
 	"dependencies": {
-		"csstime-gulp-tasks": "^4.1.0",
-		"pretty-hrtime": "^1.0.0",
-		"gulp": "^3.8.11"
+		"csstime-gulp-tasks": "^4.3.2",
+		"pretty-hrtime": "^1.0.1",
+		"gulp": "^3.9.0"
 	},
 	"devDependencies": {
-		"jscs": "~1.6.2",
-		"jshint": "^2.6.0"
+		"jscs": "^2.5.1",
+		"jshint": "^2.8.0"
 	},
 	"engines": {
 		"node": ">=0.10"
 	},
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "./node_modules/.bin/jshint ./ && ./node_modules/.bin/jscs ./"
 	},
-	"licenses": [
-		{
-			"type": "MIT",
-			"url": "https://github.com/catberry/catberry/blob/master/LICENSE"
-		}
-	]
+	"license": "MIT"
 }

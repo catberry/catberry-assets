@@ -1,6 +1,6 @@
 {
 	"name": "catberry-assets",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"author": {
 		"name": "Denis Rechkunov",
 		"email": "denis.rechkunov@gmail.com"
@@ -40,7 +40,7 @@
 		"jshint": "^2.8.0"
 	},
 	"engines": {
-		"node": ">=0.10"
+		"node": ">=0.12"
 	},
 	"scripts": {
 		"test": "./node_modules/.bin/jshint ./ && ./node_modules/.bin/jscs ./"

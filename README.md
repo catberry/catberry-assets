@@ -51,7 +51,6 @@ public/
 				c1-2.png
 			svg/
 				c1-3.svg
-				c1-3.png
 			...
 		component2/
 			images/
@@ -59,12 +58,11 @@ public/
 				c2-2.png
 			svg/
 				c2-3.svg
-				c2-3.png
 		...
-static1.jpg
-static2.png
-static3.svg
-style.css
+    static1.jpg
+    static2.png
+    static3.svg
+    style.css
 ```
 You are safe to use URLs to assets like `/assets/component1/c1-1.jpg` in your 
 styles or HTML.

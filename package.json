@@ -1,6 +1,6 @@
 {
 	"name": "catberry-assets",
-	"version": "2.0.0",
+	"version": "3.0.0",
 	"author": {
 		"name": "Denis Rechkunov",
 		"email": "denis.rechkunov@gmail.com"
@@ -16,7 +16,16 @@
 		"type": "git",
 		"url": "git://github.com/catberry/catberry-assets.git"
 	},
-	"contributors": [],
+	"contributors": [
+		{
+			"name": "Denis Rechkunov",
+			"email": "denis.rechkunov@gmail.com"
+		},
+		{
+			"name": "Maxim Chetverikov",
+			"email": "ma.chetverikov@gmail.com"
+		}
+	],
 	"keywords": [
 		"catberry",
 		"assets",
@@ -27,23 +36,20 @@
 		"plugin"
 	],
 	"main": "index.js",
-	"peerDependencies": {
-		"catberry": "^5.0.0 || ^6.0.0 || ^7.0.0"
-	},
 	"dependencies": {
-		"csstime-gulp-tasks": "^5.0.1",
+		"csstime-gulp-tasks": "^5.1.0",
 		"pretty-hrtime": "^1.0.1",
 		"gulp": "^3.9.0"
 	},
 	"devDependencies": {
-		"jscs": "^2.5.1",
-		"jshint": "^2.8.0"
+		"eslint": "^2.0.0"
 	},
 	"engines": {
-		"node": ">=0.12"
+		"node": ">=4"
 	},
 	"scripts": {
-		"test": "./node_modules/.bin/jshint ./ && ./node_modules/.bin/jscs ./"
+		"test": "./node_modules/.bin/eslint ./",
+		"lint-fix": "./node_modules/.bin/eslint ./ --fix"
 	},
 	"license": "MIT"
 }

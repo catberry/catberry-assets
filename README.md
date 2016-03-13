@@ -4,6 +4,14 @@
 
 ![Catberry](https://raw.githubusercontent.com/catberry/catberry/master/docs/images/logo.png)
 
+## Installation
+
+```bash
+npm install catberry-assets --save
+```
+
+## Description
+
 This is a plugin for working with Catberry component's assets.
 If you want cat-component to have any assets like CSS/LESS and images
 you just need to add the plugin to your project and put all this stuff

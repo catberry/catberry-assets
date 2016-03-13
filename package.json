@@ -41,6 +41,9 @@
 		"pretty-hrtime": "^1.0.1",
 		"gulp": "^3.9.0"
 	},
+	"peerDependencies": {
+		"catberry": "^8.0.0"
+	},
 	"devDependencies": {
 		"eslint": "^2.2.0"
 	},

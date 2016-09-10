@@ -37,7 +37,7 @@
 	],
 	"main": "index.js",
 	"dependencies": {
-		"csstime-gulp-tasks": "^6.0.2",
+		"csstime-gulp-tasks": "csstime/csstime-gulp-tasks#feature/update-all-deps",
 		"pretty-hrtime": "^1.0.1",
 		"gulp": "^3.9.0"
 	},

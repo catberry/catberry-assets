@@ -1,6 +1,6 @@
 {
 	"name": "catberry-assets",
-	"version": "4.1.0",
+	"version": "4.1.1",
 	"author": {
 		"name": "Denis Rechkunov",
 		"email": "denis.rechkunov@gmail.com"
@@ -38,14 +38,14 @@
 	"main": "index.js",
 	"dependencies": {
 		"csstime-gulp-tasks": "^6.1.0",
-		"pretty-hrtime": "^1.0.1",
-		"gulp": "^3.9.0"
+		"pretty-hrtime": "^1.0.3",
+		"gulp": "^3.9.1"
 	},
 	"peerDependencies": {
-		"catberry": "^8.0.0"
+		"catberry": "^8.0.0 || ^9.0.0"
 	},
 	"devDependencies": {
-		"eslint": "^2.2.0"
+		"eslint": "^3.18.0"
 	},
 	"engines": {
 		"node": ">=4"
